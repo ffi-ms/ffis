@@ -1,3 +1,167 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# baseurl = "./"
+languageCode = "de-de"
+title = "Zukunft jetzt."
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+  # Navigation
+	[params.navigation]
+		brand = "infrastruktur.ms"
+		services = "Mission"
+		portfolio = "Projekte"
+		about = "Über uns"
+		team = "Team"
+		contact = "Kontakt"
+
+# Hero section
+[params.hero]
+  # To change the background image of the hero, replace 'header-bg.jpg' in
+  # the 'static/img' folder.
+  title = "Förderverein Freie Infrastruktur"
+  subtitle = "Zukunft jetzt!"
+  buttonText = "Was wir tun"
+
+
+  	# Services section
+  	[params.services]
+  		title = "Was wir tun"
+  		subtitle = "Förderung von offenen Netzwerk-Infrastrukturen im Münsterland"
+
+          [[params.services.row]]
+
+              [[params.services.row.list]]
+                  icon = "fa-shopping-cart"
+                  title = "Offene Infrastruktur"
+                  description = "Wir betrieben offene und freie Infrastrukturen."
+
+              [[params.services.row.list]]
+                  icon = "fa-laptop"
+                  title = "Bürgernetze"
+                  description = "Wir fördern den Ausbau von lokalen Freifunk Netzen."
+
+              [[params.services.row.list]]
+                  icon = "fa-lock"
+                  title = "Projekte"
+                  description = "Wir sind Partner von Freifunk Communities, öffentlicher Verwaltung und Wirtschaft bei der Umsetzung von Projekten im Münsterland."
+                  # Portfolio section
+  	[params.portfolio]
+  		# All projects defined in their own files. You can find example projects
+  		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+  		# at the root of this Hugo site.
+  		# For more informtion take a look at the README.
+  		title = "Projekte"
+  		subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+    	# Client section
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+  #  	[[params.clients]]
+  #  		logo = "envato.jpg"
+  #  		link = "#"
+
+  #  	[[params.clients]]
+  #  		logo = "designmodo.jpg"
+  #  		link = "#"
+
+  #  	[[params.clients]]
+  #  		logo = "themeforest.jpg"
+  #  		link = "#"
+
+  #  	[[params.clients]]
+  #  		logo = "creative-market.jpg"
+  #  		link = "#"
+
+
+
+  # About section
+  	[params.about]
+  		title = "Über uns"
+  		subtitle = "Lorem ipsum dolor sit amet consectetur."
+  		endpoint = "Be part<br>of our<br>story!"
+
+  		# The events will be listed from the top to the bottom.
+  		# All images are stored under 'static/img/about'.
+  		# Replace them with your own.
+  		[[params.about.events]]
+  			img = "1.jpg"
+  			date = "Juli 2014"
+  			title = "Freifunk Münster geht online"
+  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  		[[params.about.events]]
+  			img = "2.jpg"
+  			date = "Januar 2015"
+  			title = "Gemeinsamt Infrastruktur mit der Freifunk Community Warendorf"
+  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  		[[params.about.events]]
+  			img = "3.jpg"
+  			date = "December 2012"
+  			title = "Our Humble Beginnings"
+  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  		[[params.about.events]]
+  			img = "4.jpg"
+  			date = "July 2014"
+  			title = "Phase Two Expansion"
+  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+
+  	# Contact section
+  	[params.contact]
+  		title = "Sprich mit uns"
+  		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+  		buttonText = "Send message"
+
+  		# 'warning' defines error messages for invalid inputs
+  		[params.contact.form.name]
+  			text = "Your Name *"
+  			warning = "Please enter your name."
+
+  		[params.contact.form.email]
+  			text = "Your Email *"
+  			warning = "Please enter your email address."
+
+  		[params.contact.form.phone]
+  			text = "Your Phone *"
+  			warning = "Please enter your phone number."
+
+  		[params.contact.form.message]
+  			text = "Your Message *"
+  			warning = "Please enter a message."
+
+  	# Footer section
+  	[params.footer]
+  		copyright = "CC-BY SA 4.0. <br/> Freifunk Münster ist ein Projekt der Warpzone e.V."
+
+  		[[params.footer.social]]
+  			icon = "fa-twitter"
+  			link = "#"
+
+  		[[params.footer.social]]
+  			icon = "fa-facebook"
+  			link = "#"
+
+  #		[[params.footer.social]]
+  #			icon = "fa-linkedin"
+  #			link = "#"
+
+  		[[params.footer.quicklinks]]
+  			text = "Privacy Policy"
+  			link = "#"
+
+  		[[params.footer.quicklinks]]
+  			text = "Impressum"
+  			link = "#"

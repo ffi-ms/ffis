@@ -8,7 +8,7 @@ googleAnalytics = ""
 [params]
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
+	name = "Förderverein Freie Infrastruktur"
 	description = "Your description"
 
   # Navigation
@@ -107,11 +107,25 @@ googleAnalytics = ""
   			title = "Gemeinsamt Infrastruktur mit der Freifunk Community Warendorf"
   			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
+		[[params.about.events]]
+  			img = "4.jpg"
+  			date = "xx 2015"
+  			title = "Freifunk Steinfurt"
+  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+
   		[[params.about.events]]
   			img = "3.jpg"
   			date = "Juli 2015"
   			title = "Wachstumsschmerzen"
   			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+[[params.about.events]]
+  			img = "4.jpg"
+  			date = "November 2015"
+  			title = "Förderverein Freie Infrastruktur"
+  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
 
   		[[params.about.events]]
   			img = "4.jpg"
@@ -145,7 +159,7 @@ googleAnalytics = ""
 
   	# Footer section
   	[params.footer]
-  		copyright = "CC-BY SA 4.0. <br/> Freifunk Münster ist ein Projekt der Warpzone e.V."
+  		copyright = "CC-BY SA 4.0. <br/> <a href=\"https://freifunk-muensterland.de\">Freifunk Münster</a> ist ein Projekt der <a href=\"https://www.warpzone.ms\">Warpzone</a> e.V."
 
   	#	[[params.footer.social]]
   	#		icon = "fa-twitter"

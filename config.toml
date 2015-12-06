@@ -37,17 +37,17 @@ googleAnalytics = ""
           [[params.services.row]]
 
               [[params.services.row.list]]
-                  icon = "fa-shopping-cart"
+                  icon = "fa-road" ##vieleicht auch plug?
                   title = "Offene Infrastruktur"
                   description = "Wir betrieben offene und freie Infrastrukturen."
 
               [[params.services.row.list]]
-                  icon = "fa-laptop"
+                  icon = "fa-sitemap"
                   title = "Bürgernetze"
                   description = "Wir fördern den Ausbau von lokalen Freifunk Netzen."
 
               [[params.services.row.list]]
-                  icon = "fa-lock"
+                  icon = "fa-eur"
                   title = "Projekte"
                   description = "Wir sind Partner von Freifunk Communities, öffentlicher Verwaltung und Wirtschaft bei der Umsetzung von Projekten im Münsterland."
                   # Portfolio section

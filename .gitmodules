@@ -8,5 +8,5 @@
 
 [submodule "public"]
     path=public
-    url=https://github.com/ffimsl/ffimsl.github.io.git
+    url=git@github.com:ffimsl/ffimsl.github.io.git
 

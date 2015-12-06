@@ -57,7 +57,7 @@ googleAnalytics = ""
   		# at the root of this Hugo site.
   		# For more informtion take a look at the README.
   		title = "Projekte"
-  		subtitle = "Lorem ipsum dolor sit amet consectetur."
+  		subtitle = "Was wir genauer tun."
 
 		[params.portfolio.modal]
             client = "Client"
@@ -89,7 +89,7 @@ googleAnalytics = ""
   # About section
   	[params.about]
   		title = "Über uns"
-  		subtitle = "Lorem ipsum dolor sit amet consectetur."
+  		subtitle = "Wie wir wurden, was wir sind."
   		endpoint = "Be part<br>of our<br>story!"
 
   		# The events will be listed from the top to the bottom.
@@ -99,63 +99,63 @@ googleAnalytics = ""
   			img = "1.jpg"
   			date = "Juli 2014"
   			title = "Freifunk Münster geht online"
-  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  			description = "Nach einem Dornröschenschlaf erwacht das Projekt durch den Kuss des Warpzone e.V."
 
   		[[params.about.events]]
   			img = "2.jpg"
   			date = "Januar 2015"
-  			title = "Gemeinsamt Infrastruktur mit der Freifunk Community Warendorf"
-  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  			title = "Gemeinsame Infrastruktur mit der Freifunk Community Warendorf"
+  			description = "Zusammen ist man weniger allein! Deshalb machen wir gemeinsame Sache."
 
 		[[params.about.events]]
   			img = "4.jpg"
   			date = "xx 2015"
   			title = "Freifunk Steinfurt"
-  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  			description = "Die FreifunkerInnen aus dem Kreis Steinfurt schließen sich unserem Netz an und starten direkt durch. Das bleibt nicht ohne Folgen für das Netz."
 
 
   		[[params.about.events]]
   			img = "3.jpg"
   			date = "Juli 2015"
   			title = "Wachstumsschmerzen"
-  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  			description = "Das immense Wachstum des Netzes Freifunk Münsterland fängt an, starke Schmerzen zu verursachen. Das merken auch die NutzerInnen!"
 
 [[params.about.events]]
   			img = "4.jpg"
-  			date = "November 2015"
-  			title = "Förderverein Freie Infrastruktur"
-  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  			date = "22. November 2015"
+  			title = "Gründung Förderverein Freie Infrastruktur"
+  			description = "Wir sind ein Verein, weil wir ein Verein sind!"
 
 
   		[[params.about.events]]
   			img = "4.jpg"
   			date = "Dezember 2015"
   			title = "Phase Two Expansion"
-  			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  			description = "Jeder Schmerz muss sein Ende finden. Die Teilung des Netzes lindert die Schmerzen und kuriert sie teils. Das Netz läuft flüssig."
 
 
   	# Contact section
   	[params.contact]
   		title = "Sprich mit uns"
   		subtitle  = "Lorem ipsum dolor sit amet consectetur."
-  		buttonText = "Send message"
+  		buttonText = "Nachricht absenden"
 
   		# 'warning' defines error messages for invalid inputs
   		[params.contact.form.name]
-  			text = "Your Name *"
-  			warning = "Please enter your name."
+  			text = "Ihr Name *"
+  			warning = "Bitte geben Sie Ihren Namen ein."
 
   		[params.contact.form.email]
-  			text = "Your Email *"
-  			warning = "Please enter your email address."
+  			text = "Ihre E-Mail-Adresse *"
+  			warning = "Bitte geben Sie Ihre E-Mail-Adresse ein."
 
   		[params.contact.form.phone]
-  			text = "Your Phone *"
-  			warning = "Please enter your phone number."
+  			text = "Ihre Telefonnr. *"
+  			warning = "Bitte geben Sie Ihre Telefonnummer ein."
 
   		[params.contact.form.message]
-  			text = "Your Message *"
-  			warning = "Please enter a message."
+  			text = "Ihre Nachricht *"
+  			warning = "Bitte schreiben Sie eine Nachricht."
 
   	# Footer section
   	[params.footer]
@@ -167,14 +167,14 @@ googleAnalytics = ""
 
   		[[params.footer.social]]
   			icon = "fa-facebook"
-  			link = "https://www.facebook.com/F%C3%B6rderverein-Freie-Infrastruktur-1691073621137575/"
+  			link = "https://www.facebook.com/Förderverein-Freie-Infrastruktur-1691073621137575/"
 
   #		[[params.footer.social]]
   #			icon = "fa-linkedin"
   #			link = "#"
 
   		[[params.footer.quicklinks]]
-  			text = "Privacy Policy"
+  			text = "Datenschutzbestimmungen"
   			link = "#"
 
   		[[params.footer.quicklinks]]

@@ -1,6 +1,10 @@
-[submodule "themes"]
-    path=themes
-    url=https://github.com/spf13/hugoThemes.git
+[submodule "air"]
+    path=themes/air
+    url=https://github.com/syui/hugo-theme-air.git
+
+[submodule "agency"]
+    path=themes/agency
+    url=https://github.com/digitalcraftsman/hugo-agency-theme.git
 
 [submodule "public"]
     path=public

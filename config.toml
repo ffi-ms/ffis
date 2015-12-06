@@ -1,5 +1,5 @@
 baseurl = "https://ffimsl.github.io/"
-languageCode = "de-de"
+#languageCode = "de-de"
 title = "Zukunft jetzt."
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -146,13 +146,13 @@ googleAnalytics = ""
   	[params.footer]
   		copyright = "CC-BY SA 4.0. <br/> Freifunk Münster ist ein Projekt der Warpzone e.V."
 
-  		[[params.footer.social]]
-  			icon = "fa-twitter"
-  			link = "#"
+  	#	[[params.footer.social]]
+  	#		icon = "fa-twitter"
+  	#		link = "#"
 
   		[[params.footer.social]]
   			icon = "fa-facebook"
-  			link = "#"
+  			link = "https://www.facebook.com/F%C3%B6rderverein-Freie-Infrastruktur-1691073621137575/"
 
   #		[[params.footer.social]]
   #			icon = "fa-linkedin"

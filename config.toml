@@ -1,6 +1,7 @@
 baseurl = "https://ffimsl.github.io/"
 #languageCode = "de-de"
 title = "Zukunft jetzt."
+theme = "agency"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 

@@ -6,19 +6,19 @@ theme = "agency"
 googleAnalytics = ""
 
 [params]
-    # To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-	name = "Förderverein Freie Infrastruktur"
-	description = "Your description"
+# To provide some metadata for search engines feel free to add a few
+ # information about you and your website.
+name = "Förderverein Freie Infrastruktur"
+description = "Your description"
 
-  # Navigation
-	[params.navigation]
-		brand = "infrastruktur.ms"
-		services = "Mission"
-		portfolio = "Projekte"
-		about = "Über uns"
-		team = "Team"
-		contact = "Kontakt"
+# Navigation
+[params.navigation]
+  brand = "infrastruktur.ms"
+  services = "Mission"
+  portfolio = "Projekte"
+  about = "Über uns"
+  team = "Team"
+  contact = "Kontakt"
 
 # Hero section
 [params.hero]
@@ -29,154 +29,153 @@ googleAnalytics = ""
   buttonText = "Was wir tun"
 
 
-  	# Services section
-  	[params.services]
-  		title = "Was wir tun"
-  		subtitle = "Förderung von offenen Netzwerk-Infrastrukturen im Münsterland"
+  # Services section
+  [params.services]
+  title = "Was wir tun"
+  subtitle = "Förderung von offenen Netzwerk-Infrastrukturen im Münsterland"
 
-          [[params.services.row]]
+    [[params.services.row]]
+    [[params.services.row.list]]
+      icon = "fa-road" ##vieleicht auch plug?
+      title = "Offene Infrastruktur"
+      description = "Wir betrieben offene und freie Infrastrukturen."
 
-              [[params.services.row.list]]
-                  icon = "fa-road" ##vieleicht auch plug?
-                  title = "Offene Infrastruktur"
-                  description = "Wir betrieben offene und freie Infrastrukturen."
+    [[params.services.row.list]]
+      icon = "fa-sitemap"
+      title = "Freifunk"
+      description = "Wir fördern den Ausbau von lokalen Freifunk Netzen."
 
-              [[params.services.row.list]]
-                  icon = "fa-sitemap"
-                  title = "Freifunk"
-                  description = "Wir fördern den Ausbau von lokalen Freifunk Netzen."
-
-              [[params.services.row.list]]
-                  icon = "fa-eur"
-                  title = "Projekte"
-                  description = "Wir sind Partner von Freifunk Communities, öffentlicher Verwaltung und Wirtschaft bei der Umsetzung von Freifunk Projekten im Münsterland."
+    [[params.services.row.list]]
+     icon = "fa-eur"
+     title = "Projekte"
+     description = "Wir sind Partner von Freifunk Communities, öffentlicher Verwaltung und Wirtschaft bei der Umsetzung von Freifunk Projekten im Münsterland."
                   # Portfolio section
-  	[params.portfolio]
-  		# All projects defined in their own files. You can find example projects
-  		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-  		# at the root of this Hugo site.
-  		# For more informtion take a look at the README.
-  		title = "Projekte"
-  		subtitle = "Was wir genauer tun."
+  [params.portfolio]
+  # All projects defined in their own files. You can find example projects
+  # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+  # at the root of this Hugo site.
+  # For more informtion take a look at the README.
+  title = "Projekte"
+  subtitle = "Was wir genauer tun."
 
-		[params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close project"
+    [params.portfolio.modal]
+    client = "Client"
+    date = "Date"
+    category = "Category"
+    buttonText = "Close project"
 
-    	# Client section
-    	# All the clients' logos are stored under 'static/img/logos'.
-    	# Replace them with your clients's logos.
-  #  	[[params.clients]]
-  #  		logo = "envato.jpg"
-  #  		link = "#"
+    # Client section
+    # All the clients' logos are stored under 'static/img/logos'.
+    # Replace them with your clients's logos.
+  #  [[params.clients]]
+  #  logo = "envato.jpg"
+  #  link = "#"
 
-  #  	[[params.clients]]
-  #  		logo = "designmodo.jpg"
-  #  		link = "#"
+  #  [params.clients]]
+  #  logo = "designmodo.jpg"
+  #  link = "#"
 
-  #  	[[params.clients]]
-  #  		logo = "themeforest.jpg"
-  #  		link = "#"
+  #  [[params.clients]]
+  #  logo = "themeforest.jpg"
+  #  link = "#"
 
-  #  	[[params.clients]]
-  #  		logo = "creative-market.jpg"
-  #  		link = "#"
+  #  [params.clients]]
+  #  logo = "creative-market.jpg"
+  #  link = "#"
 
 
 
   # About section
-  	[params.about]
-  		title = "Über uns"
-  		subtitle = "Wie wir wurden, was wir sind."
-  		endpoint = "Be part<br>of our<br>story!"
+  [params.about]
+  title = "Über uns"
+  subtitle = "Wie wir wurden, was wir sind."
+  endpoint = "Be part<br>of our<br>story!"
 
-  		# The events will be listed from the top to the bottom.
-  		# All images are stored under 'static/img/about'.
-  		# Replace them with your own.
-  		[[params.about.events]]
-  			img = "1.jpg"
-  			date = "Juli 2014"
-  			title = "Freifunk Münster geht online"
-  			description = "Nach einem Dornröschenschlaf erwacht das Projekt durch den Kuss des Warpzone e.V."
+  # The events will be listed from the top to the bottom.
+  # All images are stored under 'static/img/about'.
+  # Replace them with your own.
+  [[params.about.events]]
+  	img = "1.jpg"
+  	date = "Juli 2014"
+  	title = "Freifunk Münster geht online"
+  	description = "Nach einem Dornröschenschlaf erwacht das Projekt durch den Kuss des Warpzone e.V."
 
-  		[[params.about.events]]
-  			img = "2.jpg"
-  			date = "Januar 2015"
-  			title = "Gemeinsame Infrastruktur mit der Freifunk Community Warendorf"
-  			description = "Zusammen ist man weniger allein! Deshalb machen wir gemeinsame Sache."
+  [[params.about.events]]
+  	img = "2.jpg"
+  	date = "Januar 2015"
+  	title = "Gemeinsame Infrastruktur mit der Freifunk Community Warendorf"
+  	description = "Zusammen ist man weniger allein! Deshalb machen wir gemeinsame Sache."
 
-		[[params.about.events]]
-  			img = "4.jpg"
-  			date = "xx 2015"
-  			title = "Freifunk Steinfurt"
-  			description = "Die FreifunkerInnen aus dem Kreis Steinfurt schließen sich unserem Netz an und starten direkt durch. Das bleibt nicht ohne Folgen für das Netz."
+  [[params.about.events]]
+ 	img = "4.jpg"
+ 	date = "xx 2015"
+ 	title = "Freifunk Steinfurt"
+ 	description = "Die FreifunkerInnen aus dem Kreis Steinfurt schließen sich unserem Netz an und starten direkt durch. Das bleibt nicht ohne Folgen für das Netz."
 
 
-  		[[params.about.events]]
-  			img = "3.jpg"
-  			date = "Juli 2015"
-  			title = "Wachstumsschmerzen"
-  			description = "Das immense Wachstum des Netzes Freifunk Münsterland fängt an, starke Schmerzen zu verursachen. Das merken auch die NutzerInnen!"
+ [[params.about.events]]
+ 	img = "3.jpg"
+ 	date = "Juli 2015"
+ 	title = "Wachstumsschmerzen"
+ 	description = "Das immense Wachstum des Netzes Freifunk Münsterland fängt an, starke Schmerzen zu verursachen. Das merken auch die NutzerInnen!"
 
 [[params.about.events]]
-  			img = "4.jpg"
-  			date = "22. November 2015"
-  			title = "Gründung Förderverein Freie Infrastruktur"
-  			description = "Wir sind ein Verein, weil wir ein Verein sind!"
+ 	img = "4.jpg"
+ 	date = "22. November 2015"
+ 	title = "Gründung Förderverein Freie Infrastruktur"
+ 	description = "Wir sind ein Verein, weil wir ein Verein sind!"
 
 
-  		[[params.about.events]]
-  			img = "4.jpg"
-  			date = "Dezember 2015"
-  			title = "Phase Two Expansion"
-  			description = "Jeder Schmerz muss sein Ende finden. Die Teilung des Netzes lindert die Schmerzen und kuriert sie teils. Das Netz läuft flüssig."
+ [[params.about.events]]
+ 	img = "4.jpg"
+ 	date = "Dezember 2015"
+ 	title = "Phase Two Expansion"
+ 	description = "Jeder Schmerz muss sein Ende finden. Die Teilung des Netzes lindert die Schmerzen und kuriert sie teils. Das Netz läuft flüssig."
 
 
   	# Contact section
   	[params.contact]
-  		title = "Sprich mit uns"
-  		subtitle  = "Lorem ipsum dolor sit amet consectetur."
-  		buttonText = "Nachricht absenden"
+  	title = "Sprich mit uns"
+  	subtitle  = "Lorem ipsum dolor sit amet consectetur."
+  	buttonText = "Nachricht absenden"
 
-  		# 'warning' defines error messages for invalid inputs
-  		[params.contact.form.name]
-  			text = "Ihr Name *"
-  			warning = "Bitte geben Sie Ihren Namen ein."
+  	# 'warning' defines error messages for invalid inputs
+  	[params.contact.form.name]
+  		text = "Ihr Name *"
+  		warning = "Bitte geben Sie Ihren Namen ein."
 
-  		[params.contact.form.email]
-  			text = "Ihre E-Mail-Adresse *"
-  			warning = "Bitte geben Sie Ihre E-Mail-Adresse ein."
+  	[params.contact.form.email]
+  		text = "Ihre E-Mail-Adresse *"
+  		warning = "Bitte geben Sie Ihre E-Mail-Adresse ein."
 
-  		[params.contact.form.phone]
-  			text = "Ihre Telefonnr. *"
-  			warning = "Bitte geben Sie Ihre Telefonnummer ein."
+  	[params.contact.form.phone]
+  		text = "Ihre Telefonnr. *"
+  		warning = "Bitte geben Sie Ihre Telefonnummer ein."
 
-  		[params.contact.form.message]
-  			text = "Ihre Nachricht *"
-  			warning = "Bitte schreiben Sie eine Nachricht."
+  	[params.contact.form.message]
+  		text = "Ihre Nachricht *"
+  		warning = "Bitte schreiben Sie eine Nachricht."
 
   	# Footer section
-  	[params.footer]
-  		copyright = "CC-BY SA 4.0. <br/> <a href=\"https://freifunk-muensterland.de\">Freifunk Münster</a> ist ein Projekt der <a href=\"https://www.warpzone.ms\">Warpzone</a> e.V."
+  [params.footer]
+  	copyright = "CC-BY SA 4.0. <br/> <a href=\"https://freifunk-muensterland.de\">Freifunk Münster</a> ist ein Projekt der <a href=\"https://www.warpzone.ms\">Warpzone</a> e.V."
 
   	#	[[params.footer.social]]
   	#		icon = "fa-twitter"
   	#		link = "#"
 
-  		[[params.footer.social]]
-  			icon = "fa-facebook"
-  			link = "https://www.facebook.com/Förderverein-Freie-Infrastruktur-1691073621137575/"
+  [[params.footer.social]]
+  	icon = "fa-facebook"
+  	link = "https://www.facebook.com/Förderverein-Freie-Infrastruktur-1691073621137575/"
 
   #		[[params.footer.social]]
   #			icon = "fa-linkedin"
   #			link = "#"
 
-  		[[params.footer.quicklinks]]
-  			text = "Datenschutzbestimmungen"
-  			link = "#"
+  [[params.footer.quicklinks]]
+  	text = "Datenschutzbestimmungen"
+  	link = "#"
 
-  		[[params.footer.quicklinks]]
-  			text = "Impressum"
-  			link = "#"
+  [[params.footer.quicklinks]]
+  	text = "Impressum"
+  	link = "#"

@@ -25,7 +25,7 @@ googleAnalytics = ""
   # To change the background image of the hero, replace 'header-bg.jpg' in
   # the 'static/img' folder.
   title = "Förderverein Freie Infrastruktur"
-  subtitle = "Zukunft jetzt!"
+  subtitle = "Zukunft bitte jetzt!"
   buttonText = "Was wir tun"
 
 
@@ -43,13 +43,13 @@ googleAnalytics = ""
 
               [[params.services.row.list]]
                   icon = "fa-sitemap"
-                  title = "Bürgernetze"
+                  title = "Freifunk"
                   description = "Wir fördern den Ausbau von lokalen Freifunk Netzen."
 
               [[params.services.row.list]]
                   icon = "fa-eur"
                   title = "Projekte"
-                  description = "Wir sind Partner von Freifunk Communities, öffentlicher Verwaltung und Wirtschaft bei der Umsetzung von Projekten im Münsterland."
+                  description = "Wir sind Partner von Freifunk Communities, öffentlicher Verwaltung und Wirtschaft bei der Umsetzung von Freifunk Projekten im Münsterland."
                   # Portfolio section
   	[params.portfolio]
   		# All projects defined in their own files. You can find example projects
@@ -109,13 +109,13 @@ googleAnalytics = ""
 
   		[[params.about.events]]
   			img = "3.jpg"
-  			date = "December 2012"
-  			title = "Our Humble Beginnings"
+  			date = "Juli 2015"
+  			title = "Wachstumsschmerzen"
   			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
   		[[params.about.events]]
   			img = "4.jpg"
-  			date = "July 2014"
+  			date = "Dezember 2015"
   			title = "Phase Two Expansion"
   			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 

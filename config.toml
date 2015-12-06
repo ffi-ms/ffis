@@ -1,4 +1,4 @@
-baseurl = "https://beta.infrastruktur.ms/"
+baseurl = "http://ffimsl.github.io/"
 #languageCode = "de-de"
 title = "Zukunft jetzt."
 theme = "agency"

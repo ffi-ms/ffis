@@ -38,7 +38,7 @@ description = "Your description"
     [[params.services.row.list]]
       icon = "fa-road" ##vieleicht auch plug?
       title = "Offene Infrastruktur"
-      description = "Wir betrieben offene und freie Infrastrukturen."
+      description = "Wir betreiben offene und freie Infrastrukturen."
 
     [[params.services.row.list]]
       icon = "fa-sitemap"
@@ -108,8 +108,8 @@ description = "Your description"
 
   [[params.about.events]]
  	img = "4.jpg"
- 	date = "xx 2015"
- 	title = "Freifunk Steinfurt"
+ 	date = "März 2015"
+ 	title = "Freifunk Steinfurt steigt ein"
  	description = "Die FreifunkerInnen aus dem Kreis Steinfurt schließen sich unserem Netz an und starten direkt durch. Das bleibt nicht ohne Folgen für das Netz."
 
 
@@ -136,7 +136,7 @@ description = "Your description"
   	# Contact section
   	[params.contact]
   	title = "Sprich mit uns"
-  	subtitle  = "Lorem ipsum dolor sit amet consectetur."
+  	subtitle  = "Nur sprechenden Menschen kann geholfen werden."
   	buttonText = "Nachricht absenden"
 
   	# 'warning' defines error messages for invalid inputs
@@ -167,6 +167,10 @@ description = "Your description"
   [[params.footer.social]]
   	icon = "fa-facebook"
   	link = "https://www.facebook.com/Förderverein-Freie-Infrastruktur-1691073621137575/"
+
+  	[[params.footer.social]]
+  	icon = "fa-github"
+  	link = "https://github.com/ffimsl/"
 
   #		[[params.footer.social]]
   #			icon = "fa-linkedin"

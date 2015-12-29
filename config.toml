@@ -101,7 +101,7 @@ description = "Your description"
   	description = "Nach einem Dornröschenschlaf erwacht das Projekt durch den Kuss des Warpzone e.V."
 
   [[params.about.events]]
-  	img = "2.jpg"
+  	img = "32c3community.jpg"
   	date = "Januar 2015"
   	title = "Gemeinsame Infrastruktur mit der Freifunk Community Warendorf"
   	description = "Zusammen ist man weniger allein! Deshalb machen wir gemeinsame Sache."

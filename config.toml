@@ -50,19 +50,19 @@ description = "Your description"
      title = "Projekte"
      description = "Wir sind Partner von Freifunk Communities, öffentlicher Verwaltung und Wirtschaft bei der Umsetzung von Freifunk Projekten im Münsterland."
                   # Portfolio section
-  [params.portfolio]
+  #[params.portfolio]
   # All projects defined in their own files. You can find example projects
   # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
   # at the root of this Hugo site.
   # For more informtion take a look at the README.
-  title = "Projekte"
-  subtitle = "Was wir genauer tun."
+  #title = "Projekte"
+  #subtitle = "Was wir genauer tun."
 
-    [params.portfolio.modal]
-    client = "Client"
-    date = "Date"
-    category = "Category"
-    buttonText = "Close project"
+#    [params.portfolio.modal]
+#    client = "Client"
+#    date = "Date"
+#    category = "Category"
+#    buttonText = "Close project"
 
     # Client section
     # All the clients' logos are stored under 'static/img/logos'.

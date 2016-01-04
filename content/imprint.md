@@ -1,4 +1,4 @@
-+++
+﻿+++
 date = "2015-12-30"
 draft = false
 title = "Impressum"
@@ -15,7 +15,7 @@ Kevin Chiang, Kolde-Ring 41, 48151 Münster
 
 
 Postanschrift:
-Fördervereun freie Infrastruktur e.V.
+Förderverein freie Infrastruktur e.V.
 c/o Ingomar Otter
 Franz-Essink-Str 3
 48147 Münster

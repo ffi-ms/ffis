@@ -176,9 +176,9 @@ description = "Your description"
   #			icon = "fa-linkedin"
   #			link = "#"
 
-  [[params.footer.quicklinks]]
-  	text = "Datenschutzbestimmungen"
-  	link = "#"
+  #[[params.footer.quicklinks]]
+  #	text = "Datenschutzbestimmungen"
+  #	link = "#"
 
   [[params.footer.quicklinks]]
   	text = "Impressum"

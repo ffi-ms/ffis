@@ -172,13 +172,13 @@ description = "Your description"
   	icon = "fa-github"
   	link = "https://github.com/ffimsl/"
 
-  #		[[params.footer.social]]
-  #			icon = "fa-linkedin"
-  #			link = "#"
+  	[[params.footer.social]]
+  	icon = "fa-wechat"
+  	link = "https://forum.freifunk-muensterland.de/c/ffi"
 
-  #[[params.footer.quicklinks]]
-  #	text = "Datenschutzbestimmungen"
-  #	link = "#"
+  [[params.footer.quicklinks]]
+  	text = "Satzung"
+  	link = "https://github.com/ffimsl/Dokumente/blob/master/Satzung.md"
 
   [[params.footer.quicklinks]]
   	text = "Impressum"
